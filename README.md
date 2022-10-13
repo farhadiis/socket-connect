@@ -5,10 +5,10 @@ An implementation of socket and websocket protocol for mobile and web in one pur
 
 To deploy this project clone it and run.
 ```bash
-  $ git clone https://github.com/farhadiis/socket-app
-  $ cd socket-app
-  $ docker build -t socket-app .
-  $ docker run -p 5600:5600 socket-app
+  $ git clone https://github.com/farhadiis/socket-connect
+  $ cd socket-connect
+  $ docker build -t socket-connect .
+  $ docker run -p 5600:5600 socket-connect
 ```
 ## Usage
 Now you can connect to this service through the socket in TCP. This connection also supports websocket frames and can be used in the web browsers.
